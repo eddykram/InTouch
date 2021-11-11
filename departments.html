@@ -241,10 +241,12 @@
                     <div class="footer contact">
                         <h2>Contact</h2>
                         <br>
-                        <form action="index.html" method="POST">
+                        <form id="contact-form" method="POST" action="https://formsubmit.co/ekra3959@newdorphs.org">
+                            <input type="hidden" name="_subject" value="New submission!">
                             <input type="email" name="email1" class="text-input contact-input email1" placeholder="Email Address" required>
+                            <input type="hidden" name="_next" value="https://eddykram.github.io/InTouch/thanks.html" target="_blank">
                             <textarea name="message1" class="text-input contact-input" placeholder="Message" id="message1" cols="22" required></textarea>
-                            <button type="submit" class="btn btn-big contact-btn">
+                            <button type="submit" class="btn btn-big contact-btn" value="SEND MESSAGE">
                                 <i class="fas fa-envelope"></i>
                                 Send
                             </button>
