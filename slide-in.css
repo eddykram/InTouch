@@ -1,0 +1,16 @@
+.box {
+    animation: slideMe 1s ease-in;
+}
+
+
+@keyframes slideMe {
+    0% {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+    
+    70% {
+        opacity: 1;
+    }
+}
+
