@@ -1,3 +1,4 @@
+<!-- Can be used if you have non static website -->
 <?php
     $visitor_email = $_POST['email1'];
     $message = $_POST['message1'];
