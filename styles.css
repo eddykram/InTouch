@@ -602,3 +602,6 @@ footer .footer .footer-content .about .contact-details  {
     transform: translateY(0px);
 }
 
+textarea {
+    resize: none;
+}
