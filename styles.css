@@ -59,6 +59,7 @@ main {
 
 .nyc-back img {
     width: 100%;
+    padding-top: 15px;
 }
 
 .intro {
@@ -606,3 +607,16 @@ textarea {
     resize: none;
 }
 
+.burger-menu {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 1000px) {
+    .burger-menu {
+        visibility: visible;
+    }
+
+    .header {
+        visibility: hidden;
+    }
+}
