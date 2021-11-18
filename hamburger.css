@@ -15,7 +15,7 @@
         height: 3000px;
     }
 }
-.burger-menu li, .burger-menu a {
+.burger-menu li, #msg a {
     margin: 75px 0 -55px 0;
     color: #03A9F4;
     font: 14pt "Roboto", sans-serif;
@@ -25,12 +25,13 @@
     text-transform: none;
     list-style: none;
     outline: 0;
-    visibility: hidden;
+    display: none;
     
 }
+ 
 
 .burger-menu li:hover,
-.burger-menu a:hover {
+.burger-menu #msg a:hover {
     color: rgb(12, 241, 12);
 }
 
@@ -128,9 +129,8 @@
 .burger-menu #menu-toggle:checked + #trigger + #burger + #menu {
     animation: checked-anim 1s ease both;
 }
-.burger-menu #menu-toggle:checked + #trigger ~ #menu > .burger-menu li, .burger-menu a {
+.burger-menu #menu-toggle:checked + #trigger ~ #menu > li, #msg a {
     display: block;
-    visibility: visible;
 }
 .burger-menu [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
     display: none;

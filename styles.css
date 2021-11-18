@@ -608,8 +608,8 @@ textarea {
     resize: none;
 }
 
-/*.burger-menu {
-    visibility: visible;
+.burger-menu {
+    visibility: hidden;
 }
 
 @media only screen and (max-width: 1000px) {
