@@ -365,6 +365,7 @@ footer .footer .footer-content .about .contact-details  {
     .btn-big:hover {
         background: red;
         color: white;
+        cursor: pointer;
     }
 .footer img {
     object-fit: cover;
@@ -607,8 +608,8 @@ textarea {
     resize: none;
 }
 
-.burger-menu {
-    visibility: hidden;
+/*.burger-menu {
+    visibility: visible;
 }
 
 @media only screen and (max-width: 1000px) {
