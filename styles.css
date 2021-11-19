@@ -612,7 +612,19 @@ textarea {
     visibility: hidden;
 }
 
-@media only screen and (max-width: 1000px) {
+.why-us-mobile-back {
+    visibility: hidden;
+}
+
+.intro-whyus-mobile {
+    visibility: hidden;
+}
+
+.outside-box {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 1100px) {
     .burger-menu {
         visibility: visible;
     }
@@ -620,4 +632,58 @@ textarea {
     .header {
         visibility: hidden;
     }
+
+    footer {
+        visibility: hidden;
+    }
+
+    .why-us-back {
+        visibility: hidden;
+    }
+
+    .why-us-mobile-back {
+        visibility: visible;
+        position: relative;
+        top: -200px;
+        z-index: -1;
+        padding-top: 10px;
+    }
+
+    .intro-whyus {
+        visibility: hidden;
+        
+    }
+    
+    .intro-whyus-mobile {
+        visibility: visible;
+        padding-left: 70px;
+        padding-right: 70px;
+        background-color: gray;
+    }
+
+    .intro-whyus-mobile h3 {
+        text-align: center;
+    }
+    
+    .intro-whyus-mobile h3 {
+        padding: 0px 0px 0px 0px;
+        font-size: 50px;
+        color: #1A2B6D;
+        position: relative;
+        bottom: 680px;
+        font-weight: bold;
+        z-index: 10;
+}
+
+/*.outside-box {
+    visibility: visible;
+    background-color: gray;
+    padding-left: 70px;
+    padding-right: 70px;
+    position: relative;
+    bottom: 750px;
+    opacity: 1;
+    z-index: 0;
+}*/
+
 }
