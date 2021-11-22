@@ -540,7 +540,7 @@ footer .footer .footer-content .about .contact-details  {
 .box-whyus {
     background-color: #CCCACA;
     position: relative;
-    top: -150px;
+    top: -600px;
 }
 
 .o-mid {
@@ -554,10 +554,18 @@ footer .footer .footer-content .about .contact-details  {
     padding-top: 20px;
     font-size: 30px;
     color: #1A2B6D;
+    
+}
+
+.o-title {
+    position: relative;
+    bottom: 500px;
 }
 
 .o-mid p {
     font-size: 18px;
+    position: relative;
+    bottom: 500px;
 }
 
 .o5 {
@@ -688,8 +696,6 @@ textarea {
 }*/
 
 .o-mid {
-    position: relative;
-    bottom: 650px;
     margin-left: 35px;
     margin-right: auto;
     width: 20em;
