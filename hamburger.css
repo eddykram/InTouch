@@ -1,7 +1,7 @@
 @keyframes checked-anim {
     50% {
-        width: 3000px;
-        height: 3000px;
+        width: 1000px;
+        height: 1000px;
     }
     100% {
         width: 100%;
@@ -11,8 +11,8 @@
 }
 @keyframes not-checked-anim {
     0% {
-        width: 3000px;
-        height: 3000px;
+        width: 1000px;
+        height: 1000px;
     }
 }
 .burger-menu li, #msg a {
@@ -29,11 +29,6 @@
     
 }
  
-
-.burger-menu li:hover,
-.burger-menu #msg a:hover {
-    color: rgb(12, 241, 12);
-}
 
 .burger-menu li {
     width: 230px;
@@ -98,6 +93,7 @@
     top: 35px;
     transform: rotate(180deg);
     transition: transform .2s ease;
+
 }
 
 .burger-menu #menu-toggle:checked + #trigger + #burger:before {

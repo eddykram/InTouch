@@ -690,24 +690,28 @@ textarea {
 .o-mid {
     position: relative;
     bottom: 650px;
-    margin-left: 15px;
+    margin-left: 35px;
     margin-right: auto;
-    width: 25em;
+    width: 20em;
 }
 
 .o-title {
     padding-bottom: 25px;
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 30px;
     color: #1A2B6D;
 }
 
 .o-mid p {
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .o5 {
     padding-bottom: 40px;
+}
+
+.box-whyus-mobile {
+    visibility: visible;
 }
 
 }
