@@ -733,3 +733,29 @@ textarea {
 }
 
 }
+
+.shop-display {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.shop-img img {
+    object-fit: contain;
+    height: 300px;
+    width: 400px;
+    
+}
+
+.shop-btn {
+   background: white;
+   color: black;
+   border-style: solid;
+   border-color: black;
+   height: 50px;
+   width: 100px;
+   font-weight: bold;
+   font-size: 15px;
+   text-shadow: none;
+}
