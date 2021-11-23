@@ -7,11 +7,18 @@ function scrollAppear() {
     let introText4 = document.querySelector('.scroll-effect4');
     let introText5 = document.querySelector('.scroll-effect5');
     let introPosition = introText.getBoundingClientRect().top;
-    let screenPosition = window.innerHeight / 1.3;
-    let screenPosition2 = window.innerHeight / 1.8;
-    let screenPosition3 = window.innerHeight / 3.8;
-    let screenPosition4 = window.innerHeight / 4.8;
-    let screenPosition5 = window.innerHeight / 13;
+    let screenPosition = window.innerHeight / 0.7;
+    let screenPosition2 = window.innerHeight / 0.8;
+    let screenPosition3 = window.innerHeight / 1.0;
+    let screenPosition4 = window.innerHeight / 1.3;
+    let screenPosition5 = window.innerHeight / 1.5;
+
+    /*//terminates further code if you are using a phone 
+    window.addEventListener('resize', function() {
+        if (window.innerWidth < 500) {
+            break;
+        }
+    });*/
 
     // if statements that make the scroll function work
     if (introPosition < screenPosition) {
