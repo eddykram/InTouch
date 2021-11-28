@@ -1,0 +1,179 @@
+.why-us-back img {
+    width: 100%;
+}
+
+.intro-whyus {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.why-us-main {
+    min-height: 210vh;
+}
+
+.intro-whyus h3 {
+    text-align: left;
+}
+
+.points {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+}
+
+
+.intro-whyus h3 {
+    padding: 10px 0px 30px 30px;
+    font-size: 70px;
+    color: #1A2B6D;
+}
+
+.box-whyus {
+    background-color: #CCCACA;
+    position: relative;
+    top: -650px;
+}
+
+.o-mid {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+}
+
+.o-title {
+    padding-bottom: 25px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #1A2B6D;
+    
+}
+
+.o-title {
+    position: relative;
+    bottom: 600px;
+}
+
+.o-mid p {
+    font-size: 18px;
+    position: relative;
+    bottom: 600px;
+}
+
+
+
+.scroll-effect1 {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 0.9s all ease-in-out;
+    
+}
+
+.scroll-effect2 {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 0.9s all ease-in-out;
+    
+}
+
+.scroll-effect3 {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 0.9s all ease-in-out;
+    
+}
+
+.scroll-effect4 {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 0.9s all ease-in-out;
+    
+}
+
+.scroll-effect5 {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 0.9s all ease-in-out;
+    
+}
+
+.intro-appear {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+@media only screen and (max-width: 1100px) {
+   
+    
+    .why-us-mobile-back img {
+        width: 100%;
+    }
+    
+   
+
+
+    .why-us-back {
+        visibility: hidden;
+    }
+
+    .why-us-mobile-back {
+        visibility: visible;
+        position: relative;
+        bottom: 380px;
+        z-index: 1;
+        padding-top: 10px;
+    }
+
+    .intro-whyus {
+        visibility: hidden;
+        
+    }
+    
+
+    .intro-whyus-mobile h3 {
+        text-align: center;
+    }
+    
+    .intro-whyus-mobile h3 {
+        padding-bottom: 30px;
+        font-size: 50px;
+        color: #1A2B6D;
+        position: relative;
+        bottom: 600px;
+        font-weight: bold;
+        z-index: 10;
+}
+
+
+
+.o-mid {
+    margin-left: 35px;
+    margin-right: auto;
+    width: 20em;
+}
+
+.o-title {
+    padding-bottom: 25px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #1A2B6D;
+}
+
+.o-mid p {
+    font-size: 18px;
+}
+
+.o5 {
+    padding-bottom: 40px;
+}
+
+.box-whyus-mobile {
+    visibility: visible;
+}
+
+}
