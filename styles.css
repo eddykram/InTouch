@@ -184,15 +184,15 @@ footer {
     color: white;
     height: 400px;
     position: relative;
-    bottom: 0;
+    bottom: 0px;
     padding: 0;
     width: 100%;    
     margin-left: 0px !important;
     margin-right: 0px;
     margin-bottom: 0;
     display: grid;
-    grid-column-start: 1;
-    grid-column-end: 5;
+    /*grid-column-start: 1;
+    grid-column-end: 5;*/
     /*font-family: "NY","SF Pro","Arial", 'Times New Roman',sans-serif;*/
     font-weight: 600;
 }
@@ -265,14 +265,17 @@ footer .footer .footer-content .about .contact-details  {
 }
 
 .fa {
-    padding: 5px;
-    font-size: 30px;
+    padding: 0px;
+    font-size: 2rem;
     width: 50px;
-    text-align: left;
+    height: 46px;
+    text-align: center;
     text-decoration: none;
     margin-left: 0px;
-    
+    display: inline-block;
+    transition: all 0.4s;
   }
+
   
   /* Add a hover effect if you want */
   .fa:hover {
