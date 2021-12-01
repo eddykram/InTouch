@@ -13,13 +13,25 @@
 }
 
 .shop-btn {
-   background: white;
-   color: black;
+   background: #000;
+   color: #FFF;
    border-style: solid;
-   border-color: black;
-   height: 50px;
-   width: 100px;
+   border-color: #000;
+   height: 20px;
+   width: 120px;
+   text-align: center;
    font-weight: bold;
    font-size: 15px;
    text-shadow: none;
+}
+
+.shop-btn:hover {
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+
+.main-shop {
+    padding-bottom: 300px;
 }
