@@ -44,8 +44,8 @@
     margin-right: auto;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 500px;
+    padding-right: 500px;
 }
 
 .o-title {
@@ -109,8 +109,14 @@
     transform: translateY(0px);
 }
 
-
 @media only screen and (max-width: 1100px) {
+    .o-mid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
    
     
     .why-us-mobile-back img {
@@ -162,6 +168,11 @@
 
 .box-whyus-mobile {
     visibility: visible;
+}
+
+.o-mid {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 }
