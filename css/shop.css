@@ -35,3 +35,14 @@
 .main-shop {
     padding-bottom: 300px;
 }
+
+.shop-imgs {
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.shop-imgs:hover {
+    transform: scale(1.1);
+}
