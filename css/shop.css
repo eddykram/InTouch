@@ -39,7 +39,7 @@
 .shop-imgs {
     transition: all 0.3s ease-out;
     cursor: pointer;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
 }
 
