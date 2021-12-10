@@ -1,6 +1,8 @@
-let submitText = document.querySelector('.contact-btn');
-let text = document.querySelector('.contact-input');
+function eraseText() {
+    delay(1000).then(() => document.getElementById('output').value = "");
+}
 
-submitText.addEventListener('click', () => {
-    
-});
+// waits a certain amount of time before doing something (1 second = 1000)
+function delay(time) {
+    return new Promise(resolve => setTimeout(resolve, time));
+  }
