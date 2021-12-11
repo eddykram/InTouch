@@ -154,23 +154,43 @@ img {
 }
 
 .color-black {
-    background-color: #242424;
+    background-color: #343434;
 }
 
 .color-blue {
-    background-color: #085ea0;
+    background-color: #0170ff;
 }
 
 .color-yellow {
-    background-color: #c0b50d;
+    background-color: #fff756;
 }
 
 .color-red {
-    background-color: #8b0516;
+    background-color: #ff0101;
 }
 
 .color-white {
     background-color: #ededed;
+}
+
+.color-sky {
+    background-color: #55d5ff;
+}
+
+.color-purple {
+    background-color: #d906ff;
+}
+
+.color-orange {
+    background-color: #ffa756;
+}
+
+.color-pink {
+    background-color: #ff88ee;
+}
+
+.color-green {
+    background-color: #70ff56;
 }
 
 .color:hover {
