@@ -213,5 +213,9 @@ img {
     .color:last-child {
         margin-right: 0;
     }
+
+    .banner-right {
+        padding-left: 0px;
+    }
 }
 
