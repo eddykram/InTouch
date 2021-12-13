@@ -182,6 +182,18 @@ h5 {
     background-color: #70ff56;
 }
 
+.color-logo {
+    background-image: url("../Images/intouch-color.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.color-shop-img {
+    background-image: url("../Images/intouch-shopcolor.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .color:hover {
     box-shadow: 0 0 8px 0 rgba(0,0,0,0.3);
 }
