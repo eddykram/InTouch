@@ -13,20 +13,11 @@ body {
     color: #222;
 }
 
-header {
-    background: #f9f9f9;
-
+h5 {
+    font-size: 1.3rem;
 }
 
-img {
-    width: 100%;
-    display: block;
-}
 
-.navbar img {
-    width: 34px;
-    opacity: 0.85;
-}
 
 .banner-wrapper {
     max-width: 1280px;
@@ -38,12 +29,9 @@ img {
     min-height: 100vh;
 }
 
-.navbar {
+.banner-right img {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+    display: block;
 }
 
 .navbar-brand {
@@ -96,6 +84,7 @@ img {
 .banner-left p {
     margin: 1.6rem 0;
     line-height: 1.7;
+    text-align: left;
 }
 
 .banner-left button {
@@ -236,6 +225,10 @@ img {
 
     .banner-right {
         padding-left: 0px;
+    }
+
+    .banner-left p {
+        text-align: center;
     }
 
 }
