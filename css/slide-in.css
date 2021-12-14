@@ -1,6 +1,10 @@
-.box {
-    animation: slideMe 1s ease-in;
+@media only screen and (min-width: 700px) {
+    .box {
+        animation: slideMe 1s ease-in;
+    }
 }
+
+
 
 
 @keyframes slideMe {
