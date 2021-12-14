@@ -21,5 +21,5 @@ function resetActiveBtns() {
 // set new color on the banner right 
 function setNewColor(color) {
 
-    document.querySelector('.banner-right img').src = `Images/intouch-${color}.png`;
+    document.querySelector('.banner-right img').src = `Images/intouch-${color}.PNG`;
 }
