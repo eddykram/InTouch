@@ -182,14 +182,14 @@ h5 {
     background-color: #70ff56;
 }
 
-.color-logo {
+.color-logoshop {
     background-image: url("../Images/intouch-color.png");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .color-shop-img {
-    background-image: url("../Images/intouch-shoplogo.png");
+    background-image: url("../Images/intouch-shopcolor.png");
     background-repeat: no-repeat;
     background-position: center;
 }
