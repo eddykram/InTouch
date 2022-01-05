@@ -76,8 +76,10 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 468px) {
+@media only screen and (max-width: 600px) {
     .box {
         border-radius: 0;
     }
+
 }
+

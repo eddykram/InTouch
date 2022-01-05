@@ -90,7 +90,7 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
-    .heading {
+    /*.heading {
         font-size: 40px;
         color: white;
         text-align: center;
@@ -98,6 +98,10 @@ body {
 
     .heading span {
         font-size: 15px;
+    }*/
+
+    .heading {
+        text-align: center;
     }
 
     .profiles {

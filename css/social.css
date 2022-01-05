@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1300px) {
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .social-media img {
+        height: 350px;
+        width: 350px;
+        cursor: pointer;
+    }
+
+    .soc-text {
+        text-align: center;
+        font-size: 50px;
+    }
+}

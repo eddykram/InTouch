@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/90ccb2c95c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InTouch VE - Contact Us</title>
+    <link rel="shortcut icon" type="image/x-icon" href="Favicon/intouch-fav16.ico">
+    <link rel ="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <label for="toggle">
+        <div class="menu-btn">
+            <div class="menu-btn-burger"></div>
+        </div>
+    </label>
+    <input type="checkbox" id="toggle">
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="departments.html">Our Department</a>
+        <a href="products.html">Shop
+            <a href="bundles.html">Bundles</a>
+            <a href="trackers.html">Trackers</a>
+            <a href="app.html">App</a>
+        </a>
+        <a href="why-us.html">Why Us</a>
+        <a href="social.html">Social Media</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+
+    <div class="contact-body">
+    <div class="contact-title">
+        <h2>If you are in need of assistance or have any questions please contact us from 8:00 am-3:30 pm by filling out the contact form.</h2>
+        <br>
+                        <div class="contact-details">
+                            <span><i class="fas fa-phone-alt"></i> &nbsp; (347) 631-3395</span>
+                            <br>
+                            <br>
+                            <span><i class="fas fa-envelope"></i> &nbsp; intouchve22@gmail.com</span>
+                            <br>
+                            <br>
+                            <span>465 New Dorp Ln, Staten Island, NY 10306</span>
+                        </div>
+                        <br>
+    </div>
+
+    <div class="contact-form">
+
+        <form id="contact-form" method="POST" action="https://formsubmit.co/intouchve22@gmail.com">
+            <input type="hidden" name="_subject" value="New submission!">
+            <input name="email" type="email" class="form-control" placeholder="Email" required><br>
+            <input type="hidden" name="_next" value="https://intouchve.com/thanks.html">
+
+            <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+
+            <button type="submit" class="mobile-form-btn" value="SEND MESSAGE" formtarget="_blank" id="remove-text" onclick="javascript:eraseText();">SEND MESSAGE</button> 
+        </form>
+
+    </div>
+    </div>
+
+    <script src="js/mobile.js" type="text/javascript"></script>
+</body>
